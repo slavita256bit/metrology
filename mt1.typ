@@ -143,12 +143,12 @@
       #var-client-org \
       УНП: #var-client-unp \
       р/с~#var-client-account \
-      в ОАО «Белинвестбанк», БИК~BLBBBY2X \
+      в ОАО «Белагропромбанк», БИК~BLBBBY2X \
       г. Минск, ул. К. Маркса, д. 38 \
       \
       Директор \
       #v(1em)
-      #box(width: 4.5cm, stroke: (bottom: 0.5pt))[] / #var-client-rep-short / \
+      #box(width: 4.5cm, stroke: (bottom: 0.5pt))[] #var-client-rep-short \
       М.П.
     ],
     [
@@ -156,12 +156,12 @@
       #var-contractor-org \
       УНП: #var-contractor-unp \
       р/с~#var-contractor-account \
-      в ОАО «Белагропромбанк», БИК~BAPBBY2X \
+      в ОАО «Белинвестбанк», БИК~BAPBBY2X \
       г. Минск, пр-т Независимости, д. 10 \
       \
       Индивидуальный предприниматель \
       #v(1em)
-      #box(width: 4.5cm, stroke: (bottom: 0.5pt))[] / #var-contractor-short / \
+      #box(width: 4.5cm, stroke: (bottom: 0.5pt))[] #var-contractor-short \
       М.П.
     ]
   )
@@ -198,8 +198,8 @@
   #grid(
     columns: (1fr, 1fr),
     gutter: 1.5em,
-    [От Заказчика: \ \ #box(width: 4.5cm, stroke: (bottom: 0.5pt))[] / #var-client-rep-short / ],
-    [От Подрядчика: \ \ #box(width: 4.5cm, stroke: (bottom: 0.5pt))[] / #var-contractor-short / ]
+    [От Заказчика: \ \ #box(width: 4cm, stroke: (bottom: 0.5pt))[] #var-client-rep-short ],
+    [От Подрядчика: \ \ #box(width: 4cm, stroke: (bottom: 0.5pt))[] #var-contractor-short ]
   )
 ]
 
@@ -221,8 +221,8 @@
   #grid(
     columns: (1fr, 1fr),
     gutter: 1.5em,
-    [Заказчик: \ #var-client-org \ \ #box(width: 4.5cm, stroke: (bottom: 0.5pt))[] / #var-client-rep-short / ],
-    [Подрядчик: \ #var-contractor-org \ \ #box(width: 4.5cm, stroke: (bottom: 0.5pt))[] / #var-contractor-short / ]
+    [Заказчик: \ #var-client-org \ \ #box(width: 4cm, stroke: (bottom: 0.5pt))[] #var-client-rep-short ],
+    [Подрядчик: \ #var-contractor-org \ \ #box(width: 4cm, stroke: (bottom: 0.5pt))[] #var-contractor-short ]
   )
 ]
 
@@ -254,8 +254,8 @@
   #grid(
     columns: (1fr, 1fr),
     gutter: 1.5em,
-    [От Заказчика: \ \ #box(width: 4.5cm, stroke: (bottom: 0.5pt))[] / #var-client-rep-short / ],
-    [От Подрядчика: \ \ #box(width: 4.5cm, stroke: (bottom: 0.5pt))[] / #var-contractor-short / ]
+    [От Заказчика: \ \ #box(width: 4cm, stroke: (bottom: 0.5pt))[] #var-client-rep-short ],
+    [От Подрядчика: \ \ #box(width: 4cm, stroke: (bottom: 0.5pt))[] #var-contractor-short ]
   )
 ]
 
@@ -282,8 +282,8 @@
   #grid(
     columns: (1fr, 1fr),
     gutter: 1.5em,
-    [Заказчик: \ #var-client-org \ \ #box(width: 4.5cm, stroke: (bottom: 0.5pt))[] / #var-client-rep-short / \ М.П.],
-    [Подрядчик: \ #var-contractor-org \ \ #box(width: 4.5cm, stroke: (bottom: 0.5pt))[] / #var-contractor-short / \ М.П.]
+    [Заказчик: \ #var-client-org \ \ #box(width: 4cm, stroke: (bottom: 0.5pt))[] #var-client-rep-short \ М.П.],
+    [Подрядчик: \ #var-contractor-org \ \ #box(width: 4cm, stroke: (bottom: 0.5pt))[] #var-contractor-short \ М.П.]
   )
 ]
 
